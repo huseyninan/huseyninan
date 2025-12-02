@@ -99,6 +99,11 @@
             border-left: 4px solid #4caf50;
         }
 
+        .analytics-box {
+            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            border-left: 4px solid #ff9800;
+        }
+
         .contact-box {
             background: #f8f9fa;
             border-radius: 15px;
@@ -131,6 +136,32 @@
             margin-right: 8px;
         }
 
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white !important;
+            border-radius: 20px;
+            font-size: 14px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .nav-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            text-decoration: none;
+        }
+
         @media (max-width: 600px) {
             .container {
                 padding: 30px 20px;
@@ -156,7 +187,8 @@
             <div class="logo">🧩</div>
             <h1>Privacy Policy</h1>
             <div class="app-name">Kidsdoku</div>
-            <p class="last-updated">Last Updated: November 24, 2025</p>
+            <p class="last-updated">Last Updated: December 2, 2025</p>
+            <a href="terms.html" class="nav-link">📋 View Terms & Conditions</a>
         </div>
 
         <div class="highlight-box child-safe">
@@ -167,16 +199,16 @@
         <p>Welcome to Kidsdoku! This Privacy Policy explains how we handle information when you use our fun sudoku puzzle app designed for kids. We are committed to protecting the privacy of all our users, especially children.</p>
 
         <h2><span class="emoji">📱</span>Information We Collect</h2>
-        <p>Kidsdoku is designed to be a safe, offline puzzle game. Here's what you need to know:</p>
+        <p>Kidsdoku is designed to be a safe puzzle game with minimal data collection. Here's what you need to know:</p>
         
         <div class="highlight-box">
             <p><strong>We do NOT collect:</strong></p>
             <ul>
                 <li>Personal information (names, emails, addresses)</li>
                 <li>Photos or media files</li>
-                <li>Location data</li>
+                <li>Precise location data</li>
                 <li>Contact information</li>
-                <li>Device identifiers for tracking purposes</li>
+                <li>Device identifiers for advertising purposes</li>
             </ul>
         </div>
 
@@ -188,6 +220,21 @@
         </ul>
         <p>This data is stored only on your device and is not transmitted to any external servers.</p>
 
+        <h2><span class="emoji">📊</span>Analytics Data</h2>
+        <p>To improve Kidsdoku and understand how the app is used, we collect anonymous, aggregated analytics data through Firebase Analytics. This information is collected automatically and does not personally identify users.</p>
+        
+        <div class="highlight-box analytics-box">
+            <p><strong>Analytics data we collect includes:</strong></p>
+            <ul>
+                <li>App usage statistics (which features are used, session duration)</li>
+                <li>Device information (device model, operating system version)</li>
+                <li>General location (country or region only, not precise location)</li>
+                <li>App performance data (crashes, errors)</li>
+                <li>In-app events (puzzle completions, level progress)</li>
+            </ul>
+            <p style="margin-top: 15px;"><strong>Important:</strong> This analytics data is anonymized and aggregated. It cannot be used to identify individual users or children.</p>
+        </div>
+
         <h2><span class="emoji">🛒</span>In-App Purchases</h2>
         <p>Kidsdoku may offer in-app purchases for additional content or features. These purchases are processed entirely through Apple's App Store. We do not have access to any payment information. All transactions are handled securely by Apple according to their privacy practices.</p>
         <p>We recommend that parents enable parental controls and password protection for in-app purchases on their children's devices.</p>
@@ -198,8 +245,12 @@
         <h2><span class="emoji">🔗</span>Third-Party Services</h2>
         <p>Our app may use the following third-party services:</p>
         <ul>
+            <li><strong>Firebase Analytics (Google):</strong> Used to collect anonymous, aggregated analytics data to help us improve the app. Firebase Analytics does not collect personal information from users. For more information, visit <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy and Security</a>.</li>
             <li><strong>RevenueCat:</strong> Used solely for managing in-app purchase subscriptions. RevenueCat does not collect personal information from users. For more information, visit <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat's Privacy Policy</a>.</li>
         </ul>
+
+        <h2><span class="emoji">🍪</span>Cookies and Similar Technologies</h2>
+        <p>Kidsdoku does not use cookies. Firebase Analytics may use similar technologies to collect anonymous usage data, but these do not track individual users or collect personal information.</p>
 
         <h2><span class="emoji">👨‍👩‍👧‍👦</span>Parents' Rights</h2>
         <p>As a parent or guardian, you have the right to:</p>
@@ -207,16 +258,49 @@
             <li>Review any information stored locally by the app</li>
             <li>Delete all app data by uninstalling the application</li>
             <li>Contact us with any questions or concerns about our privacy practices</li>
+            <li>Request information about the types of analytics data collected (though it is anonymized)</li>
         </ul>
 
+        <h2><span class="emoji">👶</span>Children's Privacy (COPPA Compliance)</h2>
+        <p>Kidsdoku is committed to complying with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect personal information from children under 13. The analytics data we collect through Firebase is anonymized and cannot be used to identify individual children.</p>
+        <p>If you believe we have inadvertently collected personal information from a child, please contact us immediately, and we will take steps to delete such information.</p>
+
         <h2><span class="emoji">🔒</span>Data Security</h2>
-        <p>Since we do not collect or transmit personal data, there is minimal security risk associated with using Kidsdoku. All game data remains on your device and under your control.</p>
+        <p>We take reasonable measures to protect the limited data we collect:</p>
+        <ul>
+            <li>Analytics data is anonymized and encrypted during transmission</li>
+            <li>We use industry-standard security practices with our third-party services</li>
+            <li>Local game data remains on your device under your control</li>
+        </ul>
+        <p>However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+        <h2><span class="emoji">📤</span>Data Retention</h2>
+        <p>Local game data is retained on your device until you delete the app or clear the app's data. Anonymous analytics data collected through Firebase is retained according to Firebase's data retention policies, which you can learn more about at <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy and Security</a>.</p>
 
         <h2><span class="emoji">🌍</span>International Users</h2>
-        <p>Kidsdoku is available worldwide. Regardless of your location, we maintain the same commitment to privacy and do not collect personal information from any users.</p>
+        <p>Kidsdoku is available worldwide. Analytics data may be processed in the United States or other countries where Firebase services are hosted. By using Kidsdoku, you consent to the transfer of anonymized analytics data to these locations. We maintain the same commitment to privacy regardless of your location.</p>
+
+        <h2><span class="emoji">🇪🇺</span>GDPR Compliance (European Users)</h2>
+        <p>For users in the European Economic Area (EEA), we comply with the General Data Protection Regulation (GDPR):</p>
+        <ul>
+            <li>The anonymous analytics data we collect is based on our legitimate interest in improving the app</li>
+            <li>You have the right to access, rectify, or request deletion of any data we hold</li>
+            <li>You have the right to object to data processing</li>
+            <li>You have the right to data portability</li>
+            <li>You can file a complaint with your local data protection authority</li>
+        </ul>
+
+        <h2><span class="emoji">🇺🇸</span>California Privacy Rights (CCPA)</h2>
+        <p>For California residents, you have the right to:</p>
+        <ul>
+            <li>Know what personal information is collected (we collect minimal, anonymous analytics data only)</li>
+            <li>Request deletion of personal information</li>
+            <li>Opt-out of the sale of personal information (we do not sell any information)</li>
+        </ul>
 
         <h2><span class="emoji">📝</span>Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated revision date. We encourage you to review this policy periodically.</p>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, regulatory, or operational reasons. Any changes will be reflected on this page with an updated revision date. We encourage you to review this policy periodically.</p>
+        <p>If we make material changes to how we handle children's information, we will notify parents through the app or via email if contact information has been provided.</p>
 
         <h2><span class="emoji">✉️</span>Contact Us</h2>
         <div class="contact-box">
@@ -224,11 +308,15 @@
             <p style="margin-top: 15px; font-size: 18px;">
                 <a href="mailto:huseyninan@gmail.com">huseyninan@gmail.com</a>
             </p>
+            <p style="margin-top: 10px; color: #666;">We will respond to your inquiries within 30 days.</p>
         </div>
 
         <div class="footer">
             <p>© 2025 Kidsdoku. All rights reserved.</p>
             <p style="margin-top: 10px;">Made with ❤️ for young puzzle solvers</p>
+            <p style="margin-top: 15px;">
+                <a href="terms.html">Terms & Conditions</a>
+            </p>
         </div>
     </div>
 </body>
