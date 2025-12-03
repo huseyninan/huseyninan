@@ -1,16 +1,30 @@
-## Hi there 👋
+# Kidsdoku 🧩
 
-<!--
-**huseyninan/huseyninan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to the Kidsdoku repository! This is a fun and educational sudoku puzzle app designed for children.
 
-Here are some ideas to get you started:
+## About Kidsdoku
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Kidsdoku is an educational puzzle game that helps children develop logical thinking and problem-solving skills through engaging emoji-based sudoku puzzles. Perfect for young minds ready to learn and have fun!
+
+## App Resources
+
+- 💬 [Support & Help](https://huseyninan.github.io/huseyninan/kidsdoku_support.html)
+- 🔒 [Privacy Policy](https://huseyninan.github.io/huseyninan/privacy.html)
+- 📋 [Terms & Conditions](https://huseyninan.github.io/huseyninan/terms.html)
+
+## Features
+
+- Multiple grid sizes (3x3, 4x4, 6x6)
+- Fun emoji themes instead of numbers
+- Child-friendly interface
+- Educational and engaging
+- No ads - safe environment for kids
+
+## Contact
+
+For questions or support, please contact: huseyninan@gmail.com
+
+---
+
+© 2025 Kidsdoku. All rights reserved.
+Made with ❤️ for young puzzle solvers
